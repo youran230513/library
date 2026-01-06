@@ -45,26 +45,7 @@
 
 ### 方法一：手动部署
 
-1. **打包项目**
-
-   - 编译Java文件：
-
-   ```cmd
-   cd d:\桌面\作业\数据库\图书借阅管理系统\01-源码\books\books
-   javac -d build\classes -cp WebContent\WEB-INF\lib\* src\com\sxt\utils\*.java src\com\sxt\dao\*.java src\com\sxt\service\*.java src\com\sxt\web\servlet\*.java
-   ```
-
-2. **复制文件**
-
-   - 将`build\classes`目录下的所有文件复制到`WebContent\WEB-INF\classes`目录
-   - 将`src\database.properties`复制到`WebContent\WEB-INF\classes`目录
-
-3. **部署到Tomcat**
-
-   - 将整个`books`目录复制到`Tomcat安装目录\webapps`下
-   - 或者将项目打包为WAR文件，放置到`Tomcat安装目录\webapps`下
-
-### 方法二：使用Eclipse或IDEA部署（推荐）
+使用Eclipse或IDEA部署
 
 1. **在Eclipse中导入项目**
    - 选择：File -> Import -> Existing Projects into Workspace
