@@ -43,8 +43,6 @@
 
 ## 三、项目部署到Tomcat
 
-### 方法一：手动部署
-
 使用Eclipse或IDEA部署
 
 1. **在Eclipse中导入项目**
